@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/txt_position"
+        style="@style/Text_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="1."
+        android:textSize="18dp" />
+
+
+    <ImageView
+        android:id="@+id/img_app_icon"
+        android:layout_width="55dp"
+        android:layout_height="55dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/txt_position"
+        android:src="@mipmap/newss" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img_app_icon"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_app_name"
+                style="@style/Text_Title"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="微信"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/btn_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_putonghua" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txt_category"
+            style="@style/Text_Content"
+            android:layout_marginTop="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:text="社交" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txt_brief"
+            style="@style/Text_Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_10"
+            android:text="社交" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

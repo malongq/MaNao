@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:background="@color/md_white_1000">
+
+    <LinearLayout
+        android:id="@+id/layout_hot_app"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_app"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_app"
+            style="@style/Text_Title"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_hot_game"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_game"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_game"
+            style="@style/Text_Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_hot_subject"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_top"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_top"
+            style="@style/Text_Title"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/guide_re_fr"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/guide_fm_img"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/update" />
+
+    <TextView
+        android:id="@+id/guide_tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150dp"
+        android:textSize="30sp"
+        android:text="" />
+
+</RelativeLayout>

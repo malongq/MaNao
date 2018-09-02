@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 定义矩形rectangle -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--按着的时候的状态-->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <solid android:color="#24AA42" />
+            <!-- 定义边框颜色 -->
+            <stroke android:width="0.1dp" android:color="#24AA42" />
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
+        </shape>
+    </item>
+
+
+
+    <!--不按着的时候的状态-->
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <solid android:color="@color/md_grey_500" /><!--gray_btn_bg-->
+            <!-- 定义边框颜色 -->
+            <stroke android:width="0.1dp" android:color="@color/md_grey_500" />
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
+        </shape>
+    </item>
+
+
+
+    <!--输入符合标准时候的状态-->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <solid android:color="@color/colorPrimary" />
+            <!-- 定义边框颜色 -->
+            <stroke android:width="0.1dp" android:color="@color/colorPrimary" />
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
+        </shape>
+    </item>
+
+
+
+</selector>

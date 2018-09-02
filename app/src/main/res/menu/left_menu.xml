@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single" />-->
+
+    <group android:id="@+id/g2">
+        <item
+            android:id="@+id/update1"
+            android:icon="@mipmap/update"
+            android:title="应用更新" />
+
+        <item
+            android:id="@+id/news1"
+            android:icon="@mipmap/newss"
+            android:title="下载管理" />
+
+        <item
+            android:id="@+id/one1"
+            android:icon="@mipmap/withdraw_icon"
+            android:title="应用卸载" />
+
+        <item
+            android:id="@+id/two1"
+            android:icon="@mipmap/study_icon"
+            android:title="系统设置" />
+    </group>
+
+    <group android:id="@+id/g3">
+        <item
+            android:id="@+id/set"
+            android:icon="@mipmap/set"
+            android:title="退出登录" />
+    </group>
+
+
+
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/update"
+            android:icon="@mipmap/update"
+            android:title="进入svg测试页面" />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@mipmap/newss"
+            android:title="进入动态权限测试页" />
+
+        <item
+            android:id="@+id/one"
+            android:icon="@mipmap/withdraw_icon"
+            android:title="进入登录页" />
+
+        <item
+            android:id="@+id/two"
+            android:icon="@mipmap/study_icon"
+            android:title="暂未暂用页面" />
+    </group>
+
+    <!--<item android:title="马龙">-->
+
+    <!--<menu>-->
+
+    <!--<item-->
+    <!--android:id="@+id/update1"-->
+    <!--android:icon="@mipmap/small"-->
+    <!--android:title="应用更新"/>-->
+
+    <!--<item-->
+    <!--android:id="@+id/news1"-->
+    <!--android:icon="@mipmap/small"-->
+    <!--android:title="消息中心"/>-->
+
+    <!--<item-->
+    <!--android:id="@+id/set1"-->
+    <!--android:icon="@mipmap/small"-->
+    <!--android:title="设置"/>-->
+
+    <!--</menu>-->
+
+    <!--</item>-->
+
+</menu>

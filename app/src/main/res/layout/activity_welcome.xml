@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/ll_welcome"
+    android:layout_height="match_parent">
+
+    <com.eftimoff.androipathview.PathView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pathView"
+        android:layout_width="230dp"
+        android:layout_height="350dp"
+        app:pathColor="@android:color/holo_purple"
+        app:svg="@raw/summer_renewal_pop"
+        app:pathWidth="3dp"/>
+
+</LinearLayout>

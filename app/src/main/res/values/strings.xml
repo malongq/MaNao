@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">玛瑙</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="test_title">测试页面</string>
+
+
+
+
+    <string name="guide_tv_1">快来</string>
+    <string name="guide_tv_2">come  baby</string>
+    <string name="guide_tv_3">oh ...</string>
+
+
+    <string name="error_unkown">未知错误</string>
+    <string name="error_http">网络连接错误</string>
+    <string name="error_system">服务器出错</string>
+    <string name="error_account_freeze">账户被冻结，请联系管理员</string>
+    <string name="error_api_no_perission">调用了无权限的API接口</string>
+    <string name="error_login">用户名或者密码错误</string>
+    <string name="error_http_400">bad request</string>
+    <string name="error_http_404">服务器资源找不到</string>
+    <string name="error_http_500">服务器错误</string>
+    <string name="error_socket_timeout">网络超时</string>
+    <string name="error_socket_unreachable">网络不可用</string>
+    <string name="loading">加载中...</string>
+    <string name="empty_data">暂无数据</string>
+    <string name="error_data">数据出错了，再试试</string>
+
+
+    <string name="hot_game">冠军竞猜</string>
+    <string name="hot_top">热门球星</string>
+    <string name="hot_app">热门球队</string>
+    <string name="mobi">账号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="default_loading">loading</string>
+
+    <string name="app_uninstall">应用卸载</string>
+    <string name="download_manager">下载管理</string>
+    <string name="apps_update">应用更新</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="logining">正在登陆...</string>
+    <string name="logout">退出登录</string>
+    <string name="download">下载</string>
+    <string name="error_token">登录失效，请重新登录</string>
+    <string name="login_page">登录页面</string>
+    <string name="no_login">未登录</string>
+
+
+    <!--SVG 没有自定义之前的写法-->
+    <!--<string name="icon_yuwen">&#xe603;</string>-->
+    <!--<string name="icon_shuxue">&#xe604;</string>-->
+    <!--<string name="icon_wuli">&#xe605;</string>-->
+    <!--<string name="icon_liyi">&#xe606;</string>-->
+    <!--<string name="icon_youyong">&#xe607;</string>-->
+    <!--<string name="icon_taolun">&#xe608;</string>-->
+    <!--<string name="icon_putonghua">&#xe609;</string>-->
+
+    <!--<string name="icon_wudao">&#xe60a;</string>-->
+    <!--<string name="icon_shetuan">&#xe60b;</string>-->
+    <!--<string name="icon_gongchenghuitu">&#xe60c;</string>-->
+    <!--<string name="icon_xinlijiankang">&#xe60d;</string>-->
+    <!--<string name="icon_kaoyan">&#xe60e;</string>-->
+    <!--<string name="icon_chuangye">&#xe60f;</string>-->
+    <!--<string name="icon_junshiliun">&#xe610;</string>-->
+
+    <!--<string name="icon_xingshizhengce">&#xe611;</string>-->
+    <!--<string name="icon_tongji">&#xe612;</string>-->
+    <!--<string name="icon_jingji">&#xe613;</string>-->
+    <!--<string name="icon_pingmian">&#xe614;</string>-->
+    <!--<string name="icon_dianzijishu">&#xe615;</string>-->
+    <!--<string name="icon_dianshang">&#xe616;</string>-->
+    <!--<string name="icon_jisuanji">&#xe617;</string>-->
+    <!--<string name="icon_shufa">&#xe618;</string>-->
+    <!--<string name="icon_guanli">&#xe619;</string>-->
+
+    <!--<string name="icon_xiaoyuzhong">&#xe61a;</string>-->
+    <!--<string name="icon_yuedu">&#xe61b;</string>-->
+    <!--<string name="icon_banhui">&#xe61c;</string>-->
+    <!--<string name="icon_meishu">&#xe61d;</string>-->
+    <!--<string name="icon_zixi">&#xe61e;</string>-->
+    <!--<string name="icon_yinle">&#xe61f;</string>-->
+
+    <!--<string name="icon_wuli1">&#xe620;</string>-->
+    <!--<string name="icon_zhengzhi">&#xe621;</string>-->
+    <!--<string name="icon_lishi">&#xe622;</string>-->
+    <!--<string name="icon_huaxue">&#xe623;</string>-->
+    <!--<string name="icon_tiyu">&#xe624;</string>-->
+    <!--<string name="icon_yingyu">&#xe625;</string>-->
+    <!--<string name="icon_shengwu">&#xe626;</string>-->
+    <!--<string name="icon_hangkonghangtian">&#xe627;</string>-->
+    <!--<string name="icon_kongcheng">&#xe628;</string>-->
+    <!--<string name="icon_tianwenxue">&#xe629;</string>-->
+
+    <!--<string name="icon_jianshenke">&#xe62a;</string>-->
+    <!--<string name="icon_pingpangqiu">&#xe62b;</string>-->
+    <!--<string name="icon_wangqiu">&#xe62c;</string>-->
+    <!--<string name="icon_yumaoqiu">&#xe62d;</string>-->
+    <!--<string name="icon_zuqiu">&#xe62e;</string>-->
+    <!--<string name="icon_paiqiu">&#xe62f;</string>-->
+
+    <!--<string name="icon_wangluoke">&#xe630;</string>-->
+    <!--<string name="icon_lanqiu">&#xe631;</string>-->
+    <!--<string name="icon_jianzhuke">&#xe632;</string>-->
+
+    <!--<string name="icon_dangqian">&#xe64a;</string>-->
+    <!--<string name="icon_dianhua">&#xe64b;</string>-->
+    <!--<string name="icon_chengshi">&#xe649;</string>-->
+    <!--<string name="icon_dingwei">&#xe64c;</string>-->
+    <!--<string name="icon_fujin">&#xe64d;</string>-->
+    <!--<string name="icon_geren">&#xe64e;</string>-->
+    <!--<string name="icon_gengduo">&#xe64f;</string>-->
+
+    <!--<string name="icon_houtui">&#xe650;</string>-->
+    <!--<string name="icon_gonghao">&#xe651;</string>-->
+    <!--<string name="icon_houtui1">&#xe652;</string>-->
+    <!--<string name="icon_huiyishi">&#xe653;</string>-->
+    <!--<string name="icon_jinyong">&#xe654;</string>-->
+    <!--<string name="icon_jiaose">&#xe655;</string>-->
+    <!--<string name="icon_qianjin">&#xe656;</string>-->
+    <!--<string name="icon_mima">&#xe657;</string>-->
+    <!--<string name="icon_shaixuan">&#xe658;</string>-->
+    <!--<string name="icon_rongna">&#xe659;</string>-->
+
+    <!--<string name="icon_qianjin1">&#xe65a;</string>-->
+    <!--<string name="icon_shijian">&#xe65b;</string>-->
+    <!--<string name="icon_shezhi">&#xe65c;</string>-->
+    <!--<string name="icon_shebei">&#xe65d;</string>-->
+    <!--<string name="icon_shouqi">&#xe65e;</string>-->
+    <!--<string name="icon_shouqi1">&#xe65f;</string>-->
+
+    <!--<string name="icon_shipin">&#xe660;</string>-->
+    <!--<string name="icon_sousuo">&#xe661;</string>-->
+    <!--<string name="icon_tuichu">&#xe662;</string>-->
+    <!--<string name="icon_tupian">&#xe663;</string>-->
+    <!--<string name="icon_wancheng">&#xe664;</string>-->
+    <!--<string name="icon_xiala">&#xe665;</string>-->
+    <!--<string name="icon_xiala1">&#xe666;</string>-->
+    <!--<string name="icon_youxiang">&#xe667;</string>-->
+    <!--<string name="icon_youhuiquan">&#xe668;</string>-->
+    <!--<string name="icon_zhaiyao">&#xe669;</string>-->
+
+    <!--<string name="icon_zhankai">&#xe66a;</string>-->
+    <!--<string name="icon_zhiwei">&#xe66b;</string>-->
+    <!--<string name="icon_xiangji">&#xe66c;</string>-->
+    <!--<string name="icon_guanbimima">&#xe66d;</string>-->
+    <!--<string name="icon_bianji">&#xe66e;</string>-->
+    <!--<string name="icon_guanbi">&#xe66f;</string>-->
+
+    <!--<string name="icon_tuodong">&#xe670;</string>-->
+    <!--<string name="icon_tianjia">&#xe671;</string>-->
+    <!--<string name="icon_paixu">&#xe672;</string>-->
+    <!--<string name="icon_tianjia1">&#xe673;</string>-->
+    <!--<string name="icon_xiazai">&#xe674;</string>-->
+    <!--<string name="icon_shanchu">&#xe675;</string>-->
+    <!--<string name="icon_zhushi">&#xe676;</string>-->
+    <!--<string name="icon_wancheng1">&#xe677;</string>-->
+    <!--<string name="icon_shangchuan">&#xe678;</string>-->
+    <!--<string name="icon_xianshimima">&#xe679;</string>-->
+</resources>

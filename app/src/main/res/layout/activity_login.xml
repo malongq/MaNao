@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/login_title"
+        layout="@layout/aa_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_input_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/number"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobi" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <com.malong.manaomall.ui.widget.LoadingButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        app:textColor="@color/color_w"
+        android:background="@drawable/bg_btn"
+        app:text="@string/login"
+        app:loadingText="正在登录"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        app:progressColor="@color/colorAccent"/>
+
+    <!--<Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/color_w"
+        android:background="@drawable/bg_btn"
+        android:text="@string/login"
+        android:enabled="false"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"/>-->
+
+    <Button
+        android:id="@+id/new_custom"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="#f08686"
+        android:text="注册"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_12" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.malong.manaomall">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 授予该程序使用摄像头的权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:icon"
+        android:theme="@style/AppTheme">
+
+        <!-- 引导页 -->
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:theme="@style/AppTheme.Notitle.FullScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 测试页 -->
+        <activity android:name=".test.TestIconActivity" />
+
+        <!-- 主页 -->
+        <activity android:name=".ui.activity.MainActivity" />
+
+        <!-- 登录页 -->
+        <activity android:name=".ui.activity.LoginActivity" />
+
+        <!-- 测试动态权限页 -->
+        <activity android:name=".test.guide.TestLoginActivity" />
+
+        <!-- 测试动态权限页 -->
+        <activity android:name=".ui.activity.TestPermissionActivity" />
+
+        <!--欢迎页-->
+        <activity
+            android:name=".ui.activity.GuideActivity"
+            android:theme="@style/AppTheme.Notitle.FullScreen" />
+
+        <!--测试包下的初版引导页-->
+        <activity
+            android:name=".test.guide.TestGuideActivity"
+            android:theme="@style/AppTheme.Notitle.FullScreen"/>
+
+        <!--glide与okhttp3配合使用需加-->
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+
+        <!-- 主页第四个条目点击进去的分类列表页 -->
+        <activity android:name=".ui.activity.CategoryListActivity" />
+
+
+    </application>
+
+</manifest>
